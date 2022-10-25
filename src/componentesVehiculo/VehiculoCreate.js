@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import vehiculoService from '../services/vehiculoService';
-import Tipo_VehiculoDataService from '../services/tipo_VehiculoService'
+import Tipo_VehiculoDataService from '../services/tipo_VehiculoService';
 import { Link } from 'react-router-dom';
 
 const VehiculoCreate = () => {
