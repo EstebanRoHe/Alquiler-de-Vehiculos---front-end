@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from 'react-router-dom';
 import vehiculoService from "../services/vehiculoService";
-import Tipo_VehiculoDataService from '../services/tipo_VehiculoService'
+import Tipo_VehiculoDataService from '../services/tipo_VehiculoService';
 
 const VehiculoUpdate = props => {
     const { id_Vehiculo } = useParams();
