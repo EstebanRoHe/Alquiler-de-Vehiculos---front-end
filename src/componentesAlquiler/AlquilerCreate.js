@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import personaService from '../services/personaService';
 import vehiculoService from '../services/vehiculoService';
-import alquilerService from '../services/alquilerService'
+import alquilerService from '../services/alquilerService';
 import { Link } from 'react-router-dom';
 
 const AlquilerCreate = () => {
