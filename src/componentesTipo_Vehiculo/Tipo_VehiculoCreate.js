@@ -44,7 +44,7 @@ const Tipo_VehiculoCreate = () => {
                     <form onSubmit={saveTipo_Vehiculo}>
 
                         <div className="form-group">
-                            <label htmlFor="">Descripsion :</label>
+                            <label htmlFor="">Descripcion :</label>
                             <input type="text" className="form-control" id="descripsion" required value={Tipo_Vehiculo.descripsion}  onChange={handleInputChange} name="descripsion" />
 
                             <small id="helpId" className="text-muted">Escriba una descripsion</small>
