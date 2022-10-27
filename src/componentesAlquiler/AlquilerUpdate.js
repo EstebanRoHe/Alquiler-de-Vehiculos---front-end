@@ -74,7 +74,7 @@ const AlquilerUpdate = props => {
             <div>
 
                 <div className="card-header">
-                    Update Vehiculos
+                    Update Alquiler
                 </div>
 
                 <div className="card-body">
