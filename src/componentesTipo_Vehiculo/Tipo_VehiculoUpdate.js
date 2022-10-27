@@ -65,10 +65,10 @@ const Tipo_VehiculoUpdate = props => {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="">Descripsion : </label>
+                            <label htmlFor="">Descripcion : </label>
                             <input type="text" className="form-control" id="descripsion" name="descripsion" 
                                 value={Tipo_Vehiculo.descripsion} onChange={handleInputChange} required />
-                            <small id="helpId" className="text-muted">Escriba la descripsion</small>
+                            <small id="helpId" className="text-muted">Escriba la descripcion</small>
                         </div>
                         <div className="btn-group" role="group" aria-label="">
                             <button type="submit" className="btn btn-success">Editar Tipo de Vehiculo</button>
