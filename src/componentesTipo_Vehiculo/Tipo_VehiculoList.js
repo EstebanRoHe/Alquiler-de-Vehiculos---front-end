@@ -48,7 +48,7 @@ const Tipo_VehiculoList = () => {
 
                         <tr>
                             <th>Id del Tipo del Vehiculo</th>
-                            <th>Descripsion</th>
+                            <th>Descripcion</th>
                            
                         </tr>
                     </thead>
